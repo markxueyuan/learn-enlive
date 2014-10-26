@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>Basic Bootstrap Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    
+
+    <div class="container-fluid">
+
+        <div class="jumbotron">
+
+            <div class="alert alert-success" id="alert-success" style="width: 60%;">
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+                <strong>登陆成功</strong> 欢迎你！<span id="username"></span>
+            </div>
+
+            <div class="alert alert-danger alert-error" id="alert-failure" style="width: 60%;">
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+                <strong>登陆失败</strong> 请尝试重新登陆
+            </div>
+
+    
+    <a href="/extract" role="button" class="btn btn-large btn-primary" id="button-success" data-toggle="modal">
+        获取历史交易数据
+    </a>
+
+    <a href="/" role="button" class="btn btn-large btn-primary" id="button-failure" data-toggle="modal">
+        重新登陆
+    </a>
+    
+
+        </div>
+
+    </div>            
+  </body>
+</html>
